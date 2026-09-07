@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+$body-bg: #ffffff;
+$body-color: #2c2c2c;
+$link-color: #2563eb;
+$presentation-heading-color: #f53e0c;
+$presentation-font-size-root: 32px;
+
+/*-- scss:rules --*/
+.reveal h1, .reveal h2 {
+  font-weight: 600;
+}
+
+.reveal .slide-number {
+  color: #888;
+}
