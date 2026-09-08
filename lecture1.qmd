@@ -85,7 +85,7 @@ knitr:
 - Nous avons aussi de bien comprendre le langage Python et sa syntaxe pour vérifier que le code généré répond à nos objectifs et tient compte des contraintes que nous avons formulées.
 
 
-## Structuration des contenus sur l'ensemble du parcours Mageval
+## Structuration des contenus sur l'ensemble du parcours
 - **Année 1 : ** 
     - Bases de la syntaxe Python (boucles, conditions, fonctions, calcul).
     - Manipulation de données (fusionner, filtrer, trier, décrire).
@@ -134,7 +134,7 @@ knitr:
       
 ## Exercices à la maison : 
 - Non-notés sur le contenu mais leur rendu régulier compte dans la note de participation.
-- Vous permettent d'aquérir des automatismes en programmation Python.
+- Vous permettent d'acquérir des automatismes en programmation Python.
 - Très difficile de réussir les examens si vous ne les faites pas chaque semaine. 
 - On ne devient pas bilingue dans un nouveau langage en s'y mettant la veille de l'examen... 
  
