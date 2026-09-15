@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38" />
+<html lang="fr"><head>
+<script src="lecture2_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lecture2_files/libs/quarto-html/tabby.min.js"></script>
+<script src="lecture2_files/libs/quarto-html/popper.min.js"></script>
+<script src="lecture2_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="lecture2_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lecture2_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="lecture2_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
 
   <meta name="author" content="Thomas Thivillon">
   <title>Introduction à la programmation Python pour les sciences des données</title>
@@ -122,11 +127,11 @@
     }
   </style>
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Introduction à la programmation Python pour les sciences des données</h1>
   <p class="subtitle">Séance 2 : Prise en main de Python</p>
 
@@ -146,8 +151,8 @@ Thomas Thivillon
 <li><p>Visitez cette URL pour créer votre compte : https://datalab.sspcloud.fr/ (puis cliquez sur <strong>Connexion</strong>).</p></li>
 <li><p>Puis allez à <strong>Mes services &gt; Nouveau service</strong> :</p></li>
 </ol>
-<p><img data-src="SSPCloud_1.png" /></p>
-</section>
+
+<img data-src="SSPCloud_1.png" class="r-stretch"></section>
 <section id="comment-créer-son-service-jupyter-python-1" class="slide level2">
 <h2>Comment créer son service Jupyter-Python</h2>
 <ol type="1">
@@ -161,8 +166,8 @@ Thomas Thivillon
 </section>
 <section id="comment-créer-son-service-jupyter-python-2" class="slide level2">
 <h2>Comment créer son service Jupyter-Python</h2>
-<p><img data-src="SSPCloud_2.png" /></p>
-</section>
+
+<img data-src="SSPCloud_2.png" class="r-stretch"></section>
 <section id="les-3-éléments-de-votre-environnement-python" class="slide level2">
 <h2>Les 3 éléments de votre environnement Python</h2>
 <ol type="1">
@@ -202,10 +207,10 @@ Thomas Thivillon
 <section id="résoudre-les-erreurs-dans-jupyter-python" class="slide level2">
 <h2>Résoudre les erreurs dans Jupyter-Python</h2>
 <ol type="1">
-<li>Toujours commencer par <strong>lire le <code>log</code></strong> (message d’erreur) en <em>détail</em>. Il contient des informations clés pour trouver la solution à votre problème.</li>
+<li>Toujours commencer par <strong>lire le log</strong> (message d’erreur) en <em>détail</em>.</li>
 <li><strong>Relisez aussi la documentation</strong> des packages utilisés pour vous assurer que vous respectez leurs règles de syntaxe/programmation.</li>
 <li>Faites une <strong>recherche internet</strong> pour voir si quelqu’un d’autre a déjà eu le problème (hint: faites la recherche <em>en Anglais</em>).</li>
-<li>Vous pouvez avoir recours à un <strong>agent d’IA générative</strong> mais il faut : (1) vérifier les solutions proposées (hallucinations), et (2) avoir épuisé les 3 solutions précédentes au préalable pour ne pas devenir passif et dépendant. Privilégiez un agent entrainé en Europe/utilisant des serveurs européens si possible pour limiter l’impact environnemental (ex: Mistral).</li>
+<li>Vous pouvez avoir recours à un <strong>agent d’IA générative</strong> mais il faut : (1) vérifier les solutions proposées (hallucinations), et (2) avoir épuisé les 3 solutions précédentes au préalable pour ne pas devenir passif et dépendant. Privilégiez un agent ayant une démarche pour limiter son impact environnemental (ex: Mistral).</li>
 <li>Si aucune de ces solutions ne fonctionne, votre problème mérite sans doute d’être posté sur un forum. Ex: <a href="https://stackoverflow.com/questions">Stackoverflow</a>.</li>
 </ol>
 </section>
@@ -218,14 +223,14 @@ Thomas Thivillon
 <section id="merci-de-votre-attention" class="slide level2">
 <h2>Merci de votre attention !</h2>
 <p>Contact : <a href="mailto:thomas.thivillon@u-bordeaux.fr">thomas.thivillon@u-bordeaux.fr</a></p>
-<div class="quarto-auto-generated-content" style="display: none;">
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
 
 </div>
-</div>
-</section>
-    </div>
-  </div>
+</div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="lecture2_files/libs/revealjs/dist/reveal.js"></script>
@@ -248,7 +253,18 @@ Thomas Thivillon
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
-      Reveal.initialize({ 
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
         // Display controls in the bottom right corner
         controls: false,
 
@@ -267,7 +283,7 @@ Thomas Thivillon
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: c/t,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -417,7 +433,8 @@ Thomas Thivillon
         },
 
         // reveal.js plugins
-        plugins: [
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
           RevealMath,
           RevealNotes,
           RevealSearch,
@@ -425,45 +442,83 @@ Thomas Thivillon
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-    
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-    
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-    
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-    
-      })();
-    </script>
-    
-    <script id = "quarto-html-after-body" type="application/javascript">
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
         tabsets.forEach(function(tabset) {
@@ -631,5 +686,6 @@ Thomas Thivillon
         }
       });
       </script>
-    </body>
-</html>
+    
+
+</body></html>
