@@ -1,0 +1,106 @@
+---
+title: "Introduction à la programmation Python pour les sciences des données"
+subtitle: "Séance 2 : Prise en main de Python"
+author: "Thomas Thivillon"
+date: "14 Septembre 2026"
+date-format: long
+lang: fr
+format:
+  revealjs:
+    theme: [solarized, custom.scss]
+    slide-number: true
+    show-slide-number: all
+    transition: fade
+    incremental: false
+    chalkboard: true
+    smaller: false
+    toc: false
+    # embed-resources: true  # incompatible avec chalkboard ; voir note ci-dessous
+  beamer:
+    theme: metropolis        # thème LaTeX moderne et sobre
+    colortheme: default
+    incremental: false
+    toc: false
+execute:
+  echo: true
+  warning: false
+  message: false
+knitr:
+  opts_chunk:
+    fig.align: "center"
+    fig.width: 6
+    fig.height: 4
+---
+
+ 
+
+## Comment créer son service Jupyter-Python
+
+1. Visitez cette URL pour créer votre compte : https://datalab.sspcloud.fr/ (puis cliquez sur **Connexion**).
+
+
+2. Puis allez à **Mes services > Nouveau service** :
+
+![](SSPCloud_1.png)
+
+
+## Comment créer son service Jupyter-Python
+
+1. Sélectionnez **Jupyter-Python** dans le catalogue.
+2. Faites dérouler le menu du formulaire de paramétrage jusqu'à la section **GIT**.
+3. Entrez l'URL du dépôt GitHub du cours sous **Repository url**: <span style="color: blue">https://github.com/thomas-thivillon/python_mageval1.git</span>
+4. Assurez-vous que l'option **Add Git config inside your environment** est activée. 
+5. Cliquez sur la **disquette** en haut à droite du menu pour sauvegarder votre configuration.
+6. Cliquez sur **Lancer**.
+
+
+
+## Comment créer son service Jupyter-Python
+
+![](SSPCloud_2.png)
+
+## Les 3 éléments de votre environnement Python 
+
+1. **L'interpréteur Python :**
+    - Le langage de programmation Python lui-même. 
+    - On choisit sa version au moment de paramétrer son service Jupyter-Python dans SSP Cloud.
+    
+2. **Votre environnement Python :**
+    - Ensemble de *packages* que vous installez pour compléter la version de base de Python.
+    - Stockés sur des plateformes communautaires (ex: [PyPI](https://pypi.org/)).
+    - On installe avec la commande `pip install`.
+
+
+## Les 3 éléments de votre environnement Python 
+
+3. **Votre IDE :** 
+    - Permet d'écrire et d'exécuter du code dans une seule fenêtre. 
+    - Les résultats des calculs sont affichés sous les blocs de code.
+    - Le notebook intègre également des blocs de commentaires (en langage [Markdown](https://www.markdownguide.org/) dans Jupyter).
+    - Les notebooks peuvent être sauvegardés, modifiés et ré-exécutés à l'infini.
+    - Outil incontournable pour programmer de façon professionnelle et réplicable.
+    
+    
+## Première prise de contact avec un notebook JupyterLab
+
+
+- Correction du `notebook_decouverte` dans votre service Jupyter-Python.
+- Voir aussi `notebook_decouverte_cor` qui sera mis en ligne après le cours. 
+
+
+
+## Résoudre les erreurs dans Jupyter-Python
+
+1. Toujours commencer par **lire le log** (message d'erreur) en *détail*.
+2. **Relisez aussi la documentation** des packages utilisés pour vous assurer que vous respectez leurs règles de syntaxe/programmation.
+3. Faites une **recherche internet** pour voir si quelqu'un d'autre a déjà eu le problème (hint: faites la recherche *en Anglais*).
+4. Vous pouvez avoir recours à un **agent d'IA générative** mais il faut : (1) vérifier les solutions proposées (hallucinations), et (2) avoir épuisé les 3 solutions précédentes au préalable pour ne pas devenir passif et dépendant. Privilégiez un agent ayant une démarche pour limiter son impact environnemental (ex: Mistral).
+5. Si aucune de ces solutions ne fonctionne, votre problème mérite sans doute d'être posté sur un forum. Ex: [Stackoverflow](https://stackoverflow.com/questions).
+
+## Variables, types de données et structures : 
+
+- Voir notebook de la séance : `2_prise_en_main.ipynb`. 
+
+## Merci de votre attention !
+
+Contact : [thomas.thivillon@u-bordeaux.fr](mailto:thomas.thivillon@u-bordeaux.fr)
